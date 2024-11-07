@@ -16,6 +16,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import paella from "../images/paella.jpg";
 import { Helmet } from 'react-helmet';
+import Title from './Title';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -53,6 +54,9 @@ export default function RecipeReviewCard() {
         <title>Page de blogs</title>
         <meta name="description" content="Fast Food Blogs" />
     </Helmet>
+      <Typography variant="h6" gutterBottom sx={{ position: 'absolute', ml: '-15%', mt: '-4%' }}>
+        Discovering Godrogodro Fast Food: A Flavorful Journey of Speed and Taste with godrogodro
+      </Typography>
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={

@@ -5,6 +5,7 @@ import Select from '@mui/joy/Select';
 import Option from '@mui/joy/Option';
 import Table from '@mui/joy/Table';
 import { Helmet } from 'react-helmet';
+import Title from './Title';
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
@@ -22,6 +23,7 @@ export default function TableBorder() {
   const [borderAxis, setBorderAxis] = React.useState('xBetween');
   return (
     <div>
+      <Title/>
       <Helmet>
         <title>Page d'acceuil</title>
         <meta name="description" content="Fast Food Home" />

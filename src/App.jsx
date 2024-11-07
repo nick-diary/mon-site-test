@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Blog from './components/Blog';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
+import Title from './components/Title';
 
 
 const App = () => {

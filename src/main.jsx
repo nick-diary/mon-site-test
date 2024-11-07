@@ -8,7 +8,7 @@ import { createBrowserHistory } from 'history';
 import App from './App';
 
 // Remplacez 'UA-XXXXXXXXX-X' par votre ID de suivi Google Analytics
-ReactGA.initialize('UA-XXXXXXXXX-X');
+ReactGA.initialize('G-JPFTWG4GF9');
 
 const logPageView = () => {
   ReactGA.set({ page: window.location.pathname });
